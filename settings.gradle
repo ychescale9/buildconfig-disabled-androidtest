@@ -1,0 +1,3 @@
+include ':my-library'
+include ':app'
+rootProject.name = "BuildConfig disabled AndroidTest"
