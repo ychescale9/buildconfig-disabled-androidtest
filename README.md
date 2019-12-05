@@ -1,6 +1,6 @@
 # BuildConfig disabled, Java 8, Android Test
 
-A project showing an issue introduced in **AGP 4.0.0-alpha05**, where running `./gradlew library:assembleAndroidTest` on a module with any `buildConfig` disabled while Java compatibility is set to **Java 8** crashes:
+A project showing an issue introduced in **AGP 4.0.0-alpha05**, where running `./gradlew library:assembleAndroidTest` on a module with  `buildConfig` disabled while Java compatibility is set to **Java 8** crashes:
 
 Library project build.gradle:
 
